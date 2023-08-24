@@ -1,0 +1,46 @@
+
+  <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+  </head>
+
+  <body class="container py-4">
+    <h1>Notes App</h1>
+
+    <input type="search" id="searchTerm" class="form-control mb-3" placeholder="Search Note...">
+    
+    <form id="note-form" class="mb-4">
+      <input  type="text" id="header" class="form-control mb-3" placeholder="Note Header" required>
+      <textarea id="content" class="form-control mb-3" placeholder="Note Content" required></textarea>
+      <div class="row">
+        <div class="col">
+          <span>
+            Start
+        </span> <br> <br>
+          <input type="date" id="createDate" class="form-control" placeholder="createDate" aria-label="createDate">
+        </div>
+        <div class="col"> 
+          <span>
+            Finish
+        </span><br><br>
+          <input type="date" id="deadlineDate" class="form-control" placeholder="deadlineDate" aria-label="deadlineDate">
+        </div>
+      </div><br>
+      <button type="submit" style="border-radius: 20px" class="btn btn-primary btn-block">Add Note</button>
+    </form>
+    <div class="cpntainer py-3" id="note-list"></div>
+<br>
+    <button id="deleteAllBtn" class="btn btn-danger btn-block mb-3">Delete Notes</button>
+
+    <script src="./src/main.ts"></script>
+  </body>
+</html>

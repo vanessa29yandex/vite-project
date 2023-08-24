@@ -1,0 +1,50 @@
+body>form{
+    background-color: rgba(72, 157, 227, 0.47);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+body>h1{
+    color: rgba(0, 25, 139, 0.728);
+    text-align: center;
+    border-radius: 25px;
+    background-color:rgba(28, 202, 28, 0.372);
+}
+#note-list{
+    height: 355px;
+  overflow-y: scroll;
+    background-color: rgb(72, 157, 227, 0.47);
+    text-align: center;
+}
+#note-list>div{
+    background-color: rgba(90, 229, 103, 0.664);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+div>button{
+    border-radius: 20px;
+    color: rgba(165, 42, 42, 0.973);
+    align-items: center;
+}
+#searchTerm{
+    border-color: rgb(128, 191, 189);
+    width: 260px;
+    border: 1px solid #555;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+#deleteAllBtn{
+    border-radius: 20px; 
+    background-color: rgba(237, 12, 12, 0.795);
+}
+span{
+    color: aliceblue;
+    background-color: rgba(47, 118, 225, 0.619);
+    border-radius:20px;
+    padding: 5px;
+}
